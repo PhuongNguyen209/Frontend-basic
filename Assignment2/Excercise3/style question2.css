@@ -1,0 +1,42 @@
+.header{
+    height: 110px;
+    background-color: red;
+}
+
+.nav{
+    height: 40px;
+    background-color: green;
+}
+
+.colunm{
+    height: 400px;
+    float: left;
+}
+
+.main{
+    width: 70%;
+}
+
+.aside{
+    width: 30%;
+    background-color: gray;
+}
+
+.section{
+    height: 200px;
+    background-color: blue;
+}
+
+.article{
+    height: 200px;
+    background-color: black;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.footer{
+    height: 110px;
+    background-color: orange;
+}

@@ -1,0 +1,35 @@
+.header{
+    height: 80px;
+    background-color: yellow;
+}
+
+.content{
+    background-color: black;
+}
+
+.column{
+    height: 200px;
+    float: left;
+    width: 40%;
+    background-color: red;
+}
+
+.main{
+    background-color: grey;
+    width: 75%;
+
+}
+
+.sidebar{
+    background-color: red;
+    width: 25%;
+}
+
+.footer{
+    height: 40px;
+    background-color: black;
+}
+
+.clear-fix{
+    clear: both;
+}

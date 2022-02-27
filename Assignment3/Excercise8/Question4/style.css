@@ -1,0 +1,21 @@
+table, th, td{
+    border: 1px solid black;
+    }
+
+th, td{
+    padding: 5px;
+}
+
+td{
+    text-align: left;
+    width: auto;
+}
+
+table{
+    border-spacing: 2px;
+}
+
+.calculate{
+    text-align: center ;
+}
+

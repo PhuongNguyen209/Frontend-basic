@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css"> 
+
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> 
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="js.js"></script>
+    <title>Question4</title>
+</head>
+<body>
+    <h1><b>Tính chu vi diện tích</b></h1>
+    <table>
+        <tr>
+            <td>Number1:</td>
+            <td><input type="text" id="num1" value="0"/></td>
+        </tr>
+        <tr>
+            <td>Number2:</td>
+            <td><input type="text" id="num2" value="0"/></td>
+        </tr>
+        <tr>
+            <td>
+                Option
+            </td>
+            <td>
+                <form>
+                    <select>
+                        <option id="add" >Add</option>
+                        <option id="sub" >Sub</option>
+                        <option id="div" selected>Divide</option>
+                        <option id="mul" >Multiply</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Result:</td>
+            <td><span  id="result"></span></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="calculate"><input type="button" onclick="calculate()" value="Calculate"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
